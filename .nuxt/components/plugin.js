@@ -2,7 +2,7 @@ import Vue from 'vue'
 import { wrapFunctional } from './index'
 
 const components = {
-  Logo: () => import('../../components/Logo.vue' /* webpackChunkName: "components/logo" */).then(c => wrapFunctional(c.default || c))
+  Hero: () => import('../../components/Hero.vue' /* webpackChunkName: "components/hero" */).then(c => wrapFunctional(c.default || c))
 }
 
 for (const name in components) {
