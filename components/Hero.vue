@@ -10,11 +10,7 @@
 			</p>
 			<button class="button btn">Start Looking</button>
 		</div>
-		<img
-			src="~assets/image/laptop.jpg"
-			alt="laptop image"
-			class="image"
-		></img>
+		<img src="~assets/image/laptop.jpg" alt="laptop image" class="image" />
 	</div>
 </template>
 
