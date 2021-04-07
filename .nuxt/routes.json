@@ -1,5 +1,26 @@
 [
   {
+    "name": "my-items",
+    "path": "/my-items",
+    "component": "/home/balde/Documents/Code/VueJs/rent-laptop/pages/my-items.vue",
+    "chunkName": "pages/my-items",
+    "_name": "_cc1d7194"
+  },
+  {
+    "name": "products",
+    "path": "/products",
+    "component": "/home/balde/Documents/Code/VueJs/rent-laptop/pages/products/index.vue",
+    "chunkName": "pages/products/index",
+    "_name": "_721303fe"
+  },
+  {
+    "name": "products-id",
+    "path": "/products/:id",
+    "component": "/home/balde/Documents/Code/VueJs/rent-laptop/pages/products/_id.vue",
+    "chunkName": "pages/products/_id",
+    "_name": "_05edede6"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/home/balde/Documents/Code/VueJs/rent-laptop/pages/index.vue",
