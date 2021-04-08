@@ -3,6 +3,8 @@ export { default as LargeCard } from '../../components/LargeCard.vue'
 export { default as LargeCardDisplay } from '../../components/LargeCardDisplay.vue'
 export { default as Nav } from '../../components/Nav.vue'
 export { default as PageNotFound } from '../../components/PageNotFound.vue'
+export { default as ReviewCard } from '../../components/ReviewCard.vue'
+export { default as Reviews } from '../../components/Reviews.vue'
 export { default as SmallCard } from '../../components/SmallCard.vue'
 export { default as SmallCardDisplay } from '../../components/SmallCardDisplay.vue'
 
@@ -11,6 +13,8 @@ export const LazyLargeCard = import('../../components/LargeCard.vue' /* webpackC
 export const LazyLargeCardDisplay = import('../../components/LargeCardDisplay.vue' /* webpackChunkName: "components/large-card-display" */).then(c => wrapFunctional(c.default || c))
 export const LazyNav = import('../../components/Nav.vue' /* webpackChunkName: "components/nav" */).then(c => wrapFunctional(c.default || c))
 export const LazyPageNotFound = import('../../components/PageNotFound.vue' /* webpackChunkName: "components/page-not-found" */).then(c => wrapFunctional(c.default || c))
+export const LazyReviewCard = import('../../components/ReviewCard.vue' /* webpackChunkName: "components/review-card" */).then(c => wrapFunctional(c.default || c))
+export const LazyReviews = import('../../components/Reviews.vue' /* webpackChunkName: "components/reviews" */).then(c => wrapFunctional(c.default || c))
 export const LazySmallCard = import('../../components/SmallCard.vue' /* webpackChunkName: "components/small-card" */).then(c => wrapFunctional(c.default || c))
 export const LazySmallCardDisplay = import('../../components/SmallCardDisplay.vue' /* webpackChunkName: "components/small-card-display" */).then(c => wrapFunctional(c.default || c))
 
