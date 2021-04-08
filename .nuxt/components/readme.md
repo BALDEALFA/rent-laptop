@@ -11,6 +11,7 @@ You can directly use them in pages and other components without the need to impo
 - `<LargeCardDisplay>` | `<large-card-display>` (components/LargeCardDisplay.vue)
 - `<Nav>` | `<nav>` (components/Nav.vue)
 - `<PageNotFound>` | `<page-not-found>` (components/PageNotFound.vue)
+- `<RentModal>` | `<rent-modal>` (components/RentModal.vue)
 - `<ReviewCard>` | `<review-card>` (components/ReviewCard.vue)
 - `<Reviews>` | `<reviews>` (components/Reviews.vue)
 - `<SmallCard>` | `<small-card>` (components/SmallCard.vue)
