@@ -15,7 +15,12 @@
 </template>
 
 <script>
-export default {};
+import { mapState } from "vuex";
+export default {
+	computed: {
+		...mapState(["products"]),
+	},
+};
 </script>
 
 <style scoped>
