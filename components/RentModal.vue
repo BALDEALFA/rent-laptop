@@ -13,18 +13,7 @@
 				</div>
 				<vc-date-picker :value="null" color="indigo" is-dark is-range />
 			</div>
-			<b-button
-				class="mt-3"
-				variant="outline-danger"
-				block
-				@click="
-					() => {
-						addItem(product.id);
-						hideModal();
-					}
-				"
-				>Order</b-button
-			>
+			<b-button class="show-btn" variant="outline-danger" block>Order</b-button>
 		</b-modal>
 	</div>
 </template>

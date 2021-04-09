@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<h1>Page Not Found</h1>
-		<img :src="require('@/assets/image/sadLaptop.jpg')" alt="" />
+		<img :src="require('@/assets/image/sadlaptop.jpg')" alt="" />
 	</div>
 </template>
 
