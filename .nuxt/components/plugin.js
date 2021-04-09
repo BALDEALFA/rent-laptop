@@ -5,6 +5,7 @@ const components = {
   Hero: () => import('../../components/Hero.vue' /* webpackChunkName: "components/hero" */).then(c => wrapFunctional(c.default || c)),
   LargeCard: () => import('../../components/LargeCard.vue' /* webpackChunkName: "components/large-card" */).then(c => wrapFunctional(c.default || c)),
   LargeCardDisplay: () => import('../../components/LargeCardDisplay.vue' /* webpackChunkName: "components/large-card-display" */).then(c => wrapFunctional(c.default || c)),
+  MyItem: () => import('../../components/MyItem.vue' /* webpackChunkName: "components/my-item" */).then(c => wrapFunctional(c.default || c)),
   Nav: () => import('../../components/Nav.vue' /* webpackChunkName: "components/nav" */).then(c => wrapFunctional(c.default || c)),
   PageNotFound: () => import('../../components/PageNotFound.vue' /* webpackChunkName: "components/page-not-found" */).then(c => wrapFunctional(c.default || c)),
   RentModal: () => import('../../components/RentModal.vue' /* webpackChunkName: "components/rent-modal" */).then(c => wrapFunctional(c.default || c)),

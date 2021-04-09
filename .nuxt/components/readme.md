@@ -9,6 +9,7 @@ You can directly use them in pages and other components without the need to impo
 - `<Hero>` | `<hero>` (components/Hero.vue)
 - `<LargeCard>` | `<large-card>` (components/LargeCard.vue)
 - `<LargeCardDisplay>` | `<large-card-display>` (components/LargeCardDisplay.vue)
+- `<MyItem>` | `<my-item>` (components/MyItem.vue)
 - `<Nav>` | `<nav>` (components/Nav.vue)
 - `<PageNotFound>` | `<page-not-found>` (components/PageNotFound.vue)
 - `<RentModal>` | `<rent-modal>` (components/RentModal.vue)
